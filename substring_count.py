@@ -6,6 +6,8 @@ string2="aabbabbbaaaababaaab"
 substring="ab"
 
 print("The number of", substring,"present in ", string1," is",string1.count('ab'),"and in",string2," is",string2.count('ab'))
+
+#User input
 while(1):
     check=input("Do you want to check more?(yes/no)")
 
