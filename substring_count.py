@@ -8,6 +8,7 @@ substring="ab"
 print("The number of", substring,"present in ", string1," is",string1.count('ab'),"and in",string2," is",string2.count('ab'))
 
 #User input
+#infinite loop
 while(1):
     check=input("Do you want to check more?(yes/no)")
 
@@ -21,6 +22,7 @@ while(1):
     
     elif check=='no':
         print("It's ok")
+        break
 
     else:
         print("Please enter the correct input")
