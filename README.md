@@ -1,1 +1,1 @@
-Some basic Python programs
+Python programs
